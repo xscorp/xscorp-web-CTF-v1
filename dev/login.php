@@ -92,7 +92,7 @@ span.psw {
 <?php
 $psswd = htmlspecialchars($_POST["psw"]);
 if(strcmp($psswd , "JaVaScRiPt_iS_fUn") == 0) {
-	header("Location: ../about_to_win_page.html");
+	echo '<script>window.location.href="../about_to_win_page.html";</script>';
 }
 else {
 	echo "Oops! Wrong passcode!";
