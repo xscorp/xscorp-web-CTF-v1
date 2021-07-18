@@ -5,6 +5,16 @@ A web based Capture The Flag hacking contest intended for CTF beginners.
   
 This CTF is web based. That means you will be facing web challanges along with other minor challanges to get the flag. Since this is intended for beginners, the difficulty level has been kept easy.
 
+## Setup
+
+Build and start the application with Docker.
+```bash
+docker build -t xscorp .
+docker run --rm -p 3000:80 xscorp
+```
+
+You should now be able to reach the application on http://localhost:3000
+
 ## Skills this CTF teaches:
 * Identifying loopholes
 * Source code inspection
